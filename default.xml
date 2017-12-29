@@ -4,24 +4,24 @@
   <default revision="master" remote="origin" />
 
   <project path="llvm"
-           name="llvm.git" remote="origin" />
+           name="llvm.git" remote="origin" clone-depth="1"/>
 
   <project path="llvm/tools/clang"
-           name="clang.git" remote="origin" />
+           name="clang.git" remote="origin" clone-depth="1"/>
 
   <project path="llvm/tools/clang/tools/extra"
-           name="clang-tools-extra.git" remote="origin" />
+           name="clang-tools-extra.git" remote="origin" clone-depth="1"/>
 
   <project path="llvm/tools/lld"
-           name="lld.git" remote="origin" />
+           name="lld.git" remote="origin" clone-depth="1"/>
 
   <project path="llvm/projects/libcxx"
-           name="libcxx.git" remote="origin" />
+           name="libcxx.git" remote="origin" clone-depth="1"/>
 
   <project path="llvm/projects/libcxxabi"
-           name="libcxxabi.git" remote="origin" />
+           name="libcxxabi.git" remote="origin" clone-depth="1"/>
 
   <project path="llvm/projects/compiler-rt"
-           name="compiler-rt.git" remote="origin" />
+           name="compiler-rt.git" remote="origin" clone-depth="1"/>
 
 </manifest>
