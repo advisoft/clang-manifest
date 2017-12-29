@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin" fetch="https://llvm.org/git/" />
+  <default revision="master" remote="origin" />
+
+  <project path="llvm"
+           name="llvm.git" remote="origin" />
+
+  <project path="llvm/tools/clang"
+           name="clang.git" remote="origin" />
+
+  <project path="llvm/tools/clang/tools/extra"
+           name="clang-tools-extra.git" remote="origin" />
+
+  <project path="llvm/tools/lld"
+           name="lld.git" remote="origin" />
+
+  <project path="llvm/projects/libcxx"
+           name="libcxx.git" remote="origin" />
+
+  <project path="llvm/projects/libcxxabi"
+           name="libcxxabi.git" remote="origin" />
+
+  <project path="llvm/projects/compiler-rt"
+           name="compiler-rt.git" remote="origin" />
+
+</manifest>
