@@ -21,5 +21,10 @@ Inside an empty directory:
 
 `ninja`
 
+## Installing
+`ninja install`
+
+Now the usable binaries will be located in: `~/clang-master/bin`
+
 ## More info on using Repo
 https://source.android.com/setup/using-repo
